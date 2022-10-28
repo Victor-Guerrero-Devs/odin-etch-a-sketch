@@ -36,7 +36,10 @@ h1 {
 }
 
 .options {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 label,
@@ -47,4 +50,5 @@ button {
 button {
   margin-left: 1.5rem;
   cursor: pointer;
+  padding: 0.4rem 1rem;
 }
